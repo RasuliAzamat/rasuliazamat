@@ -60,18 +60,23 @@ ul {
 h1 {
   font-size: 56px;
 }
+
 h2 {
   font-size: 36px;
 }
+
 h3 {
   font-size: 28px;
 }
+
 h4 {
   font-size: 24px;
 }
+
 h5 {
   font-size: 20px;
 }
+
 h6 {
   font-size: 16px;
 }
@@ -316,6 +321,8 @@ h6 {
 }
 
 .post {
+  height: 380px;
+  background-color: #fff;
   border: 1px solid var(--borderColor);
   -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
@@ -330,8 +337,11 @@ h6 {
 }
 
 .post-preview {
-  background-color: #fff;
   padding: 15px;
+}
+
+.post-links {
+  margin-top: auto;
 }
 
 .post-title {
